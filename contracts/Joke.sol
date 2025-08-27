@@ -20,7 +20,7 @@ contract Joking is ERC721, Ownable {
         "What do you get when you cross a snowman and a vampire? Frostbite!",
         "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
         "What do you call a bear with no teeth? A gummy bear!",
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ" // Rick Astley
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     ];
 
     constructor() ERC721("Tokenized Jokes", "JOKE") Ownable(msg.sender) {}
